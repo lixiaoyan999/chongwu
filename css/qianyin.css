@@ -148,14 +148,15 @@ textarea{
 .center .ctop .ctl .ctltu{
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;	
 }
 .center .ctop .ctl .ctltu img{
 	width: 350px;
 	height: 350px;
+	transition: all 1s;
 }
 .center .ctop .ctl .ctltu img:hover{
-	transition: all 1s;
+	
 	width: 370px;
 	height: 370px;
 }
