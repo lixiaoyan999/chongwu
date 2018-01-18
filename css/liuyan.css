@@ -33,18 +33,6 @@ input{
 	margin: 0 auto;
 	background: yellow;
 }
-.qq{
-	position: fixed;
-	bottom: 75px;
-	right: 170px;
-	z-index: 10;
-	width: 100px;
-	height: 190px;
-}
-.qq img{
-	border: 0;
-    vertical-align: top;
-}
 .top{
 	width: 100%;
 	height: 85px;
@@ -61,7 +49,7 @@ input{
 .top img{
 	height: 61px;
     width: 267px;
-    float: left:;
+    float: left;
 }
 .navv{
 	width:100%;
@@ -408,7 +396,7 @@ input{
  	font-size: 13px;
  }
 .tom .tom1 .bt3 .dizhi{
- 	width: 270px;
+ 	width: auto;
  	height: 26px;
  	line-height: 26px;
  	float: left;

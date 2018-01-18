@@ -7,6 +7,10 @@
 img{
 	display: block;
 }
+html,body{
+	width: 100%;
+	height: 100%;
+}
 body{
 	background-color: #f8f8f8;
 	font-family: "微软雅黑","宋体";
@@ -33,18 +37,6 @@ input{
 	margin: 0 auto;
 	background: yellow;
 }
-.qq{
-	position: fixed;
-	bottom: 75px;
-	right: 170px;
-	z-index: 10;
-	width: 100px;
-	height: 190px;
-}
-.qq img{
-	border: 0;
-    vertical-align: top;
-}
 .top{
 	width: 100%;
 	height: 85px;
@@ -61,7 +53,7 @@ input{
 .top img{
 	height: 61px;
     width: 267px;
-    float: left:;
+    float: left;
 }
 .navv{
 	width:100%;
@@ -128,14 +120,15 @@ input{
 	padding-bottom: 5px;
 	padding-top: 5px;
 	background: #fff;
-	/* padding-right: 5px; */
 	float: left;
 }
 .con .con1-1{
 	width: 280px;
 	height: 179px;
 	margin: 7px 3px 7px 2px;
+	/*box-sizing: border-box;*/
 	float: left;
+	cursor: pointer;
 }
 .con .con1-1 a img{
 	margin: 0 auto;
@@ -265,7 +258,7 @@ input{
  	font-size: 13px;
  }
 .tom .tom1 .bt3 .dizhi{
- 	width: 270px;
+ 	width: auto;
  	height: 26px;
  	line-height: 26px;
  	float: left;
@@ -320,4 +313,86 @@ input{
 }
 .tom .tom1 .bt3 .denglu .guanli:hover{
 	color: #fff;
+}
+/* 效果 */
+.box{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:rgba(0,0,0,0.5);
+	z-index: -1;
+	opacity: 0;
+}
+.ul{
+	width: 855px;
+	height: 110px;
+	position: absolute;
+	bottom: 286px;
+	left: -220px;
+	background: orange;
+	z-index: 21;
+}
+.ull{
+	width: 855px;
+	height: 110px;
+	position: absolute;
+	bottom: 286px;
+	background: orange;
+	z-index: 20;
+}
+.box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ul>li{
+	width: 210px;
+	height: 110px;
+}
+ul>li:nth-child(1){
+	width: 210px;
+	height: 110px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+ul>li:nth-child(2){
+	position: absolute;
+	top: 0;
+	left: 215px;
+}
+ul>li:nth-child(3){
+	position: absolute;
+	top: 0;
+	left: 430px;
+}
+ul>li:nth-child(4){
+	position: absolute;
+	top: 0;
+	left: 645px;
+}
+.hezi{
+	width: 685px;
+	height: 376px;
+	position: absolute;
+	left: 0;
+	background: #fff;
+	right: 0;
+	margin: 0 auto;
+	bottom: 286px;
+	z-index: 99;
+}
+.guanbi{
+	width: 45px;
+	height: 45px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	position: absolute;
+	top: -680px;
+	right: -1400px;
+	cursor: pointer;
 }

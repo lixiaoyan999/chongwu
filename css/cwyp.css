@@ -1,38 +1,44 @@
 *{
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
+	border: 0;
 	list-style: none;
-	font-style: normal;
 	font-weight: normal;
+	font-style: normal;
 }
 img{
 	display: block;
 }
-input{
-	border: 0;
-	outline:none;
-	display: block;
+body{
+	background-color: #f8f8f8;
+	font-family: "微软雅黑","宋体";
+	font-size: 12px;
+	color: #666;
 }
 a{
 	text-decoration: none;
+	display: block;
 }
-body{
-	background-color: #F8F8F8;
-	position: relative;
-	top: 0;
-	left: 0;
+icon{
+	font-size: 12px;
 }
-.qq{
-	position: fixed;
-	bottom: 75px;
-	right: 170px;
-	z-index: 10;
-	width: 100px;
-	height: 190px;
-}
-.qq img{
+input{
 	border: 0;
-    vertical-align: top;
+	outline:none;
+}
+textarea{
+	outline:none;
+}
+.logo{
+	width: 100%;
+	height: 110px;
+	background: red;
+}
+.logo .lg{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: yellow;
 }
 .top{
 	width: 100%;
@@ -45,16 +51,16 @@ body{
 }
 .topp{
 	width: 1000px;
-	margin: 0 auto;   
+	margin: 0 auto;
 }
 .top img{
 	height: 61px;
-    width: 267px;
-    float: left:;
+	width: 267px;
+	float: left;
 }
 .navv{
 	width:100%;
-	height:50px; 
+	height:50px;
 	background-color: black;
 }
 .nav{
@@ -66,10 +72,10 @@ body{
 .nav .nav1{
 	width: 110px;
 	height: 50px;
-    margin-right: 40px;
-    text-align: center;
-    float: left;
-    cursor: pointer;
+	margin-right: 40px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
 }
 .nav .nav1:hover{
 	background-color: #fff;
@@ -82,7 +88,7 @@ body{
 	color: #fff;
 	font-size: 16px;
 	line-height: 50px;
-    font-family: 微软雅黑;
+	font-family: 微软雅黑;
 }
 .nav a .nav2{
 	background-color: #fff;
@@ -133,6 +139,7 @@ body{
 .center .xxq .xxqbottom .xxq1{
 	text-align: center;
 	position: relative;
+	cursor: pointer;
 }
 .center .xxq .xxqbottom .xxq1 span{
 	display: block;
@@ -224,7 +231,7 @@ body{
  	font-size: 13px;
  }
 .tom .tom1 .bt3 .dizhi{
- 	width: 270px;
+ 	width: auto;
  	height: 26px;
  	line-height: 26px;
  	float: left;
@@ -280,3 +287,104 @@ body{
 .tom .tom1 .bt3 .denglu .guanli:hover{
 	color: #fff;
 }
+
+/* 效果 */
+.box{
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	background: red;
+	position: relative;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	width: 600px;
+	height: 150px;
+	
+	margin:0 auto;
+	overflow: hidden;
+}
+.hezi{
+	width: 600px;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.imgbox{
+	width: 600px;
+	height: 150px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imgs{
+	width: 150px;
+	height: 100%;
+	border: 3px solid #fff;
+	box-sizing: border-box;
+	float: left;
+}
+.hot{
+	border-color: #ff6700;
+    z-index: 999;
+}
+[class ^= btn]{
+	position: absolute;
+	font-size: 50px;
+	font-weight: 600;
+}
+.box>.btn1{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+    cursor: pointer;
+}
+.box>.btn2{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	right:-100px;
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+    cursor: pointer;
+}
+.bigbox{
+	width: 1200px;
+	height: 700px;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
+	display: none;
+}
+.guanbi{
+	  width: 45px;
+	  height: 45px;
+	  top: 0;
+	  bottom: 0;
+	  left:-100px;
+	  margin: auto;
+	  position: absolute;
+	  top: -600px;
+	  right: -1200px;
+	  cursor: pointer;
+  }

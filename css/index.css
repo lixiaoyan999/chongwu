@@ -22,18 +22,6 @@ body{
 	top: 0;
 	left: 0;
 }
-.qq{
-	position: fixed;
-	bottom: 75px;
-	right: 170px;
-	z-index: 10;
-	width: 100px;
-	height: 190px;
-}
-.qq img{
-	border: 0;
-    vertical-align: top;
-}
 .top{
 	width: 100%;
 	height: 85px;
@@ -50,7 +38,7 @@ body{
 .top img{
 	height: 61px;
     width: 267px;
-    float: left:;
+    float: left;
 }
 .navv{
 	width:100%;
@@ -138,28 +126,6 @@ body{
 	background-size: 235px 220px;
 	cursor: pointer;
 	position: relative;
-}
-.center .rmyq .yq1 a{
-	color: transparent;
-	font-size: 12px;
-    overflow: hidden;
-    text-align: center;
-}
-.center .rmyq .yq1 a p{
-	display: block;
-	margin: 68.5px auto 0;
-}
-.center .rmyq .yq1 span{
-	display: block;
-	width: 200px;
-	margin:18px auto 0;
-}
-.center .rmyq .yq1:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
-.center .rmyq .yq1:hover a{
-	color: #fff;
 }
 .center .rmyq .yq2{
 	background-image: url('../img/rmyq3.png');
@@ -342,7 +308,7 @@ body{
  	font-size: 13px;
  }
 .tom .tom1 .bt3 .dizhi{
- 	width: 270px;
+ 	width: auto;
  	height: 26px;
  	line-height: 26px;
  	float: left;
@@ -365,7 +331,6 @@ body{
 	line-height: 26px;
 	float: left;
 	font-size: 12px;
-	float: left;
 	margin-right: 6px;
 	color: #545454;
 }
@@ -397,4 +362,132 @@ body{
 }
 .tom .tom1 .bt3 .denglu .guanli:hover{
 	color: #fff;
+}
+/* 热门幼犬效果 */
+.mark{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	/*opacity: 0;*/
+}
+
+.center .rmyq .yq1 .mark{
+	color: #FFFFFF;
+	font-size: 12px;
+	overflow: hidden;
+	text-align: center;
+	z-index: 999;
+	display: none;
+}
+.center .rmyq .yq1 .mark p{
+	display: block;
+	margin: 68.5px auto 0;
+}
+.center .rmyq .yq1 span{
+	display: block;
+	width: 200px;
+	margin:18px auto 0;
+}
+.box{
+	width: 600px;
+	height: 400px;
+	margin: 50px auto;
+	background: red;
+	position: relative;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	width: 600px;
+	height: 150px;
+
+	margin:0 auto;
+	overflow: hidden;
+}
+.hezi{
+	width: 600px;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.imgbox{
+	width: 600px;
+	height: 150px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imgs{
+	width: 150px;
+	height: 100%;
+	border: 3px solid #fff;
+	box-sizing: border-box;
+	float: left;
+}
+.hot{
+	border-color: #ff6700;
+	z-index: 999;
+}
+[class ^= btn]{
+	position: absolute;
+	font-size: 50px;
+	font-weight: 600;
+}
+.box>.btn1{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.box>.btn2{
+	width: 60px;
+	height: 60px;
+	top: 0;
+	bottom: 0;
+	right:-100px;
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.bigbox{
+	width: 1200px;
+	height: 700px;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
+	display: none;
+}
+.guanbi{
+	width: 45px;
+	height: 45px;
+	top: 0;
+	bottom: 0;
+	left:-100px;
+	margin: auto;
+	position: absolute;
+	top: -600px;
+	right: -1200px;
+	cursor: pointer;
 }
